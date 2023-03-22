@@ -1,144 +1,170 @@
-body {
-    font-family: 'Righteous', cursive;
-    font-weight: 10;
-}
-
-.navbar {
-    background-color: #ffcce6;
-    padding-left: 3.2rem;
-    padding-right: 2rem;
-}
-
-h1 {
-    text-align: center;
-    border-top: 5rem;
-    border-bottom: 5rem;
-}
-
-#title {
-    font-family: 'Rock Salt', cursive;
-    background-color: #ffccff;
-}
-
-.cartext {
-    font-family: 'Rock Salt', cursive;
-    font-size: 100px;
-    padding-bottom: 2rem;
-}
-
-.icon {
-    color: #000;
-    font-weight: 15;
-}
-
-#specialcoll {
-    background-color: #fef3e6;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-}
-
-.colltext {
-    border-top: 25px;
-    font-family: 'Righteous', cursive;
-}
-
-.collection {
-    padding: 20px;
-    border-left: 200px;
-}
-
-#about {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-color: #abafaf;
-    padding-left: 3rem;
-    padding-right: 4rem;
-}
-
-.text {
-    font-family: 'Pacifico', cursive;
-    font-weight: 300;
-    padding: 2rem;
-    border-top: 1rem;
-    border-bottom: 0.5rem;
-}
-
-.new {
-    height: 250px;
-    width: 450px;
-}
-
-.abt {
-    height: 450px;
-    width: 450px;
-}
-
-#footer {
-    background-color: #f2eee2;
-    padding-left: 7.5rem;
-    padding-right: 0.5rem;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-}
-
-.ftone {
-    padding: 0.5px;
-}
-
-.fttwo {
-    padding: 0.5px;
-}
-
-.ftthree {
-    padding: 0.5px;
-}
-
-form {
-    size: 50px;
-    padding-bottom: 10px;
-}
-
-.navbt {
-    height: 60px;
-    width: 120px;
-}
-
-.end {
-    text-align: center;
-    padding-right: 14rem;
-}
-
-.brand {
-    font-weight: bolder;
-}
-
-.Download {
-    padding: 1rem;
-    margin: 0.5rem;
-}
-
-.link {
-    color: #000;
-    touch-action: pan-x;
-}
-
-@media (max-width: 520px) {
-    #footer {
-        padding-left: 10rem;
-        border: 1rem;
-    }
-    .app {
-        margin: 2px;
-        margin-bottom: 30px;
-    }
-    .links {
-        margin-top: 25px;
-    }
-    .end {
-        margin-top: 30px;
-        padding-left: 0.2rem;
-        padding-right: 10rem;
-    }
-}
+            body {
+                font-family: 'Righteous', cursive;
+                font-weight: 10;
+            }
+            
+            .navbar {
+                background-color: #ffcce6;
+                padding-left: 3.2rem;
+                padding-right: 2rem;
+            }
+            
+            h1 {
+                text-align: center;
+                border-top: 5rem;
+                border-bottom: 5rem;
+            }
+            
+            #title {
+                font-family: 'Rock Salt', cursive;
+                background-color: #ffccff;
+            }
+            
+            .cartext {
+                font-family: 'Rock Salt', cursive;
+                font-size: 100px;
+                padding-bottom: 2rem;
+            }
+            
+            .icon {
+                color: #000;
+                font-weight: 15;
+            }
+            
+            #specialcoll {
+                background-color: #fef3e6;
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+            
+            .colltext {
+                border-top: 25px;
+                font-family: 'Righteous', cursive;
+            }
+            
+            .collection {
+                padding: 20px;
+                border-left: 200px;
+            }
+            
+            #about {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+                background-color: #abafaf;
+                padding-left: 3rem;
+                padding-right: 4rem;
+            }
+            
+            .text {
+                font-family: 'Pacifico', cursive;
+                font-weight: 300;
+                padding: 2rem;
+                border-top: 1rem;
+                border-bottom: 0.5rem;
+            }
+            
+            .new {
+                height: 250px;
+                width: 450px;
+            }
+            
+            .abt {
+                height: 450px;
+                width: 450px;
+            }
+            
+            #footer {
+                background-color: #f2eee2;
+                padding-left: 7.5rem;
+                padding-right: 0.5rem;
+                padding-top: 3rem;
+                padding-bottom: 1rem;
+            }
+            
+            .ftone {
+                padding: 0.5px;
+            }
+            
+            .fttwo {
+                padding: 0.5px;
+            }
+            
+            .ftthree {
+                padding: 0.5px;
+            }
+            
+            form {
+                size: 50px;
+                padding-bottom: 10px;
+            }
+            
+            .navbt {
+                height: 60px;
+                width: 120px;
+            }
+            
+            .end {
+                text-align: center;
+                padding-right: 14rem;
+            }
+            
+            .brand {
+                font-weight: bolder;
+            }
+            
+            .Download {
+                padding: 1rem;
+                margin: 0.5rem;
+            }
+            
+            .link {
+                color: #000;
+                touch-action: pan-x;
+            }
+            
+            @media (max-width: 430px) {
+                #footer {
+                    padding-left: 10rem;
+                    border: 2rem;
+                }
+                .app {
+                    font-size: 12px;
+                    margin-top: 0.5px;
+                    margin-bottom: 15px;
+                }
+                .links {
+                    margin-top: 25px;
+                }
+                .end {
+                    margin-top: 50px;
+                    padding-right: 4.2rem;
+                    text-align: center;
+                }
+                .navbar {
+                    padding-left: 10px;
+                    padding-right: 15px;
+                }
+                #specialcoll {
+                    background-color: #fef3e6;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                }
+                #footer {
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                }
+                .foot {
+                    padding-left: 7rem;
+                    padding-right: 0.5rem;
+                }
+                #about {
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                }
+            }
